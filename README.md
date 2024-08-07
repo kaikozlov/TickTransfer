@@ -6,8 +6,8 @@ Disclaimer: This will probably not work for your file(s) without modifications.
 In its current state, the script watches for changes in a checkbox column on the source spreadsheet and either copies or deletes the target row from the destination sheet. 
 
 ## Steps to Use
-1. Select "Extensions" on the source Google Sheets file, then click "Apps Script."
-2. You can choose to either add this file directly to the Apps Script editor or paste the code into the existing Code.gs file.
+1. Select "Extensions" on the source spreadsheet, then click "Apps Script."
+2. You can choose to either upload the TickTransfer.gs file from this repository to the Apps Script editor or paste the script into the existing Code.gs file.
 3. Modify the targetSpreadsheet and targetSheet values to match your destination. You can find the spreadsheet ID by looking at the URL "/d/\<ID IS HERE\>/edit?"\.
 4. Save the file.
 5. Create the script trigger by running the createOnEditTrigger function using the interface at the top of the page. Make sure to accept any required permissions for the script.
