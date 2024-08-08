@@ -5,7 +5,7 @@ Disclaimer: This will probably not work for your file(s) without modifications.
 In its current state, the script watches for changes in a checkbox column on the source spreadsheet and either copies or deletes the target row from the destination sheet. This version of the script only monitors one checkbox but can easily be modified to perform different actions based on multiple checkboxes or even a dropdown menu.
 
 ## Why?
-I use multiple Google Sheets files to track and categorize spending, and I find it tedious to organize transactions manually. Monitoring the state of checkboxes added to my source sheet saves time because I don't have to open and copy information to the destination sheet every time I modify the source.
+I use multiple Google Sheets files to track and categorize spending, and I find it tedious to organize transactions manually. Monitoring the state of checkboxes added to my source sheet saves time because I don't have to open and copy information to the destination sheet every time I make changes to the source.
 
 ## Steps to Use
 1. Select "Extensions" on the source spreadsheet, then click "Apps Script."
